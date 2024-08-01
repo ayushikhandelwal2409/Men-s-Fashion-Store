@@ -132,10 +132,10 @@ footer{
     position:fixed;
     border: 2px solid gainsboro;
     border-radius: 50%;
-    height: 80px;
-    width: 80px;
-    margin-top: 625px;
-    margin-left: 1350px;
+    height: 70px;
+    width: 70px;
+    margin-top: 85vh;
+    margin-left: 90vw;
 }
 .pantcards{
     display: flex;
@@ -146,7 +146,7 @@ footer{
     justify-content: center;
 }
 .p-cards{
-    flex-basis: 40%;
+    flex-basis: 65%;
     height:300px;
     background-color: white;
     border: none;
@@ -203,12 +203,11 @@ footer{
     justify-content: center;
 }
 .ts-cards{
-    flex-basis: 40%;
+    flex-basis: 65%;
     height:300px;
     background-color: white;
     border: none;
     margin: 40px;
-    flex-grow: none;
     display: flex;
     flex-direction: row;
     justify-content: start;
@@ -232,7 +231,7 @@ footer{
     justify-content: center;
 }
 .w-cards{
-    flex-basis: 40%;
+    flex-basis: 65%;
     height:300px;
     background-color: white;
     border: none;
@@ -319,7 +318,7 @@ footer{
     justify-content: center;
 }
 .sg-cards{
-    flex-basis: 40%;
+    flex-basis: 65%;
     height:300px;
     background-color: white;
     border: none;
@@ -367,26 +366,18 @@ footer{
 .ts-cards .addtowishlist{
     height:25px;
     width:25px;
-    margin-top: 15px;
-    margin-left: 320px;
 }
 .w-cards .addtowishlist{
     height:25px;
     width:25px;
-    margin-top: 60px;
-    margin-left: 300px;
 }
 .p-cards .addtowishlist{
     height:25px;
     width:25px;
-    margin-top: 45px;
-    margin-left: 325px;
 }
 .sg-cards .addtowishlist{
     height:25px;
     width:25px;
-    margin-top: 65px;
-    margin-left: 290px;
 }
 .item-price{
     font-size: 22px;
@@ -396,7 +387,7 @@ footer{
     font-size: 15px;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:700px) {
     .Sales-table{
         width: 40vw;
         padding: 2px;
@@ -514,8 +505,6 @@ footer{
     .ts-cards .addtowishlist{
         height:18px;
         width:18px;
-        margin-left: unset;
-        margin-top: unset;
     }
     .w-cards .img{
         width: 150px;
@@ -523,17 +512,13 @@ footer{
     .w-cards .addtowishlist{
         height:18px;
         width:18px;
-        margin-left: unset;
-        margin-top: unset;
     }
     .p-cards .img{
-        width: 140px;
+        width: 130px;
     }
     .p-cards .addtowishlist{
         height:18px;
         width:18px;
-        margin-left: unset;
-        margin-top: unset;
     }
     .sg-cards .img{
         width: 155px;
@@ -541,8 +526,6 @@ footer{
     .sg-cards .addtowishlist{
         height:18px;
         width:18px;
-        margin-left: unset;
-        margin-top: unset;
     }
 }
 .cart{
