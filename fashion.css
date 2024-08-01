@@ -396,7 +396,16 @@ footer{
     font-size: 15px;
 }
 
-@media (max-width:600px) {
+@media screen and (max-width:600px) {
+    .Sales-table{
+        width: 40vw;
+        padding: 2px;
+        font-size: 13px;
+    }
+    .Item-img{
+        height: 84px; 
+        width: 45px;
+    }
     .item-price{
         font-size: 13px;
     }
@@ -448,9 +457,9 @@ footer{
         height: 300px;
     }
     .logo{
-        height: 60px;
-        width: 60px;
-        margin-left: 360px;
+        height: 55px;
+        width: 55px;
+        margin-left: 82vw;
     }
     .bar{
         height: 230px;
@@ -505,8 +514,8 @@ footer{
     .ts-cards .addtowishlist{
         height:18px;
         width:18px;
-        margin-left: 145px;
-        margin-top: 12px;
+        margin-left: unset;
+        margin-top: unset;
     }
     .w-cards .img{
         width: 150px;
@@ -514,8 +523,8 @@ footer{
     .w-cards .addtowishlist{
         height:18px;
         width:18px;
-        margin-left: 140px;
-        margin-top: 50px;
+        margin-left: unset;
+        margin-top: unset;
     }
     .p-cards .img{
         width: 140px;
@@ -523,8 +532,8 @@ footer{
     .p-cards .addtowishlist{
         height:18px;
         width:18px;
-        margin-left: 145px;
-        margin-top: 35px;
+        margin-left: unset;
+        margin-top: unset;
     }
     .sg-cards .img{
         width: 155px;
@@ -532,8 +541,8 @@ footer{
     .sg-cards .addtowishlist{
         height:18px;
         width:18px;
-        margin-left: 135px;
-        margin-top: 50px;
+        margin-left: unset;
+        margin-top: unset;
     }
 }
 .cart{
